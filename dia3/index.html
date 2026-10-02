@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienestar Integral</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor barra-navegacion">
+            <div class="marca">
+                <img src="img/logo.png.png" alt="Logo Bienestar Integral">
+                <span>Bienestar Integral</span>
+            </div>
+
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#habitos">Hábitos saludables</a>
+                <a href="#recursos">Recursos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <button class="boton-menu" id="botonMenu">☰</button>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero" id="inicio">
+            <div class="contenedor hero-contenido">
+                <div class="hero-texto">
+                    <span class="etiqueta">CUIDA DE TI</span>
+
+                    <h1>
+                        Pequeños hábitos,
+                        <span>grandes cambios</span>
+                    </h1>
+
+                    <p>
+                        Descubre información sencilla para mejorar tu
+                        actividad física, alimentación, hidratación y descanso.
+                    </p>
+
+                    <a href="#habitos" class="boton-principal">
+                        Explorar hábitos
+                    </a>
+                </div>
+
+                <div class="hero-imagen">
+                    <img src="img/actividad-fisica.jpg.png" alt="Persona realizando actividad física">
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion introduccion">
+            <div class="contenedor texto-centrado">
+                <span class="etiqueta">BIENVENIDO</span>
+                <h2>Construye una vida más saludable</h2>
+                <p>
+                    La salud y el bienestar se fortalecen con acciones
+                    sencillas que puedes incorporar a tu vida diaria.
+                </p>
+            </div>
+        </section>
+
+        <section class="seccion habitos" id="habitos">
+            <div class="contenedor">
+                <div class="encabezado-seccion">
+                    <div>
+                        <span class="etiqueta">INFORMACIÓN ÚTIL</span>
+                        <h2>Hábitos saludables</h2>
+                    </div>
+
+                    <p>
+                        Conoce recomendaciones generales para cuidar
+                        tu bienestar físico y mental.
+                    </p>
+                </div>
+
+                <div class="tarjetas">
+
+                    <article class="tarjeta">
+                        <img src="img/actividad-fisica.jpg.png" alt="Actividad física">
+
+                        <div class="tarjeta-contenido">
+                            <span class="numero">01</span>
+                            <h3>Actividad física</h3>
+                            <p>
+                                Mantenerte activo ayuda a mejorar tu energía,
+                                movilidad y bienestar general.
+                            </p>
+                            <button class="boton-secundario"
+                                    onclick="mostrarMensaje('actividad')">
+                                Ver recomendación
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="img/hidratacion.jpg.png" alt="Hidratación">
+
+                        <div class="tarjeta-contenido">
+                            <span class="numero">02</span>
+                            <h3>Hidratación</h3>
+                            <p>
+                                Tomar agua durante el día contribuye al
+                                funcionamiento adecuado del organismo.
+                            </p>
+                            <button class="boton-secundario"
+                                    onclick="mostrarMensaje('hidratacion')">
+                                Ver recomendación
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="img/descanso.jpg.png" alt="Descanso">
+
+                        <div class="tarjeta-contenido">
+                            <span class="numero">03</span>
+                            <h3>Descanso</h3>
+                            <p>
+                                Dormir y tener momentos de descanso favorece
+                                la concentración y la recuperación.
+                            </p>
+                            <button class="boton-secundario"
+                                    onclick="mostrarMensaje('descanso')">
+                                Ver recomendación
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="tarjeta">
+                        <img src="img/alimentacion.jpg" alt="Alimentación saludable">
+
+                        <div class="tarjeta-contenido">
+                            <span class="numero">04</span>
+                            <h3>Alimentación saludable</h3>
+                            <p>
+                                Una alimentación variada proporciona energía
+                                y nutrientes importantes para el día.
+                            </p>
+                            <button class="boton-secundario"
+                                    onclick="mostrarMensaje('alimentacion')">
+                                Ver recomendación
+                            </button>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="seccion recursos" id="recursos">
+            <div class="contenedor recursos-contenido">
+                <div>
+                    <span class="etiqueta">RECURSOS</span>
+                    <h2>Empieza con un cambio sencillo</h2>
+                    <p>
+                        Elige un hábito, practícalo poco a poco y conviértelo
+                        en parte de tu rutina.
+                    </p>
+                </div>
+
+                <a href="#habitos" class="boton-principal">
+                    Consultar información
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto">
+        <div class="contenedor footer-contenido">
+            <div>
+                <h3>Bienestar Integral</h3>
+                <p>
+                    Información educativa para promover hábitos saludables.
+                </p>
+            </div>
+
+            <p class="derechos">
+                © 2026 Bienestar Integral
+            </p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
